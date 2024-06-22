@@ -52,7 +52,7 @@
     {
       "datasource": {
         "type": "cloudwatch",
-        "uid": "${DS_CLOUDWATCH}"
+        "uid": "cloudwatch"
       },
       "editable": true,
       "error": false,
@@ -77,7 +77,7 @@
         {
           "datasource": {
             "type": "cloudwatch",
-            "uid": "${DS_CLOUDWATCH}"
+            "uid": "cloudwatch"
           },
           "refId": "A"
         }
@@ -114,7 +114,7 @@
     {
       "datasource": {
         "type": "cloudwatch",
-        "uid": "${DS_CLOUDWATCH}"
+        "uid": "cloudwatch"
       },
       "fieldConfig": {
         "defaults": {
@@ -217,7 +217,7 @@
           "alias": "CPU",
           "datasource": {
             "type": "cloudwatch",
-            "uid": "${DS_CLOUDWATCH}"
+            "uid": "cloudwatch"
           },
           "dimensions": {
             "DBInstanceIdentifier": "$instance"
@@ -240,7 +240,7 @@
     {
       "datasource": {
         "type": "cloudwatch",
-        "uid": "${DS_CLOUDWATCH}"
+        "uid": "cloudwatch"
       },
       "fieldConfig": {
         "defaults": {
@@ -358,7 +358,7 @@
           "alias": "Credits Accumulated",
           "datasource": {
             "type": "cloudwatch",
-            "uid": "${DS_CLOUDWATCH}"
+            "uid": "cloudwatch"
           },
           "dimensions": {
             "DBInstanceIdentifier": "$instance"
@@ -378,7 +378,7 @@
           "alias": "Credits Consumed",
           "datasource": {
             "type": "cloudwatch",
-            "uid": "${DS_CLOUDWATCH}"
+            "uid": "cloudwatch"
           },
           "dimensions": {
             "DBInstanceIdentifier": "$instance"
@@ -427,7 +427,7 @@
     {
       "datasource": {
         "type": "cloudwatch",
-        "uid": "${DS_CLOUDWATCH}"
+        "uid": "cloudwatch"
       },
       "fieldConfig": {
         "defaults": {
@@ -514,7 +514,7 @@
           "alias": "Read",
           "datasource": {
             "type": "cloudwatch",
-            "uid": "${DS_CLOUDWATCH}"
+            "uid": "cloudwatch"
           },
           "dimensions": {
             "DBInstanceIdentifier": "$instance"
@@ -534,7 +534,7 @@
           "alias": "Write",
           "datasource": {
             "type": "cloudwatch",
-            "uid": "${DS_CLOUDWATCH}"
+            "uid": "cloudwatch"
           },
           "dimensions": {
             "DBInstanceIdentifier": "$instance"
@@ -557,7 +557,7 @@
     {
       "datasource": {
         "type": "cloudwatch",
-        "uid": "${DS_CLOUDWATCH}"
+        "uid": "cloudwatch"
       },
       "fieldConfig": {
         "defaults": {
@@ -644,7 +644,7 @@
           "alias": "Read",
           "datasource": {
             "type": "cloudwatch",
-            "uid": "${DS_CLOUDWATCH}"
+            "uid": "cloudwatch"
           },
           "dimensions": {
             "DBInstanceIdentifier": "$instance"
@@ -664,7 +664,7 @@
           "alias": "Write",
           "datasource": {
             "type": "cloudwatch",
-            "uid": "${DS_CLOUDWATCH}"
+            "uid": "cloudwatch"
           },
           "dimensions": {
             "DBInstanceIdentifier": "$instance"
@@ -713,7 +713,7 @@
     {
       "datasource": {
         "type": "cloudwatch",
-        "uid": "${DS_CLOUDWATCH}"
+        "uid": "cloudwatch"
       },
       "fieldConfig": {
         "defaults": {
@@ -816,7 +816,7 @@
           "alias": "Outstanding IO Requests",
           "datasource": {
             "type": "cloudwatch",
-            "uid": "${DS_CLOUDWATCH}"
+            "uid": "cloudwatch"
           },
           "dimensions": {
             "DBInstanceIdentifier": "$instance"
@@ -839,7 +839,7 @@
     {
       "datasource": {
         "type": "cloudwatch",
-        "uid": "${DS_CLOUDWATCH}"
+        "uid": "cloudwatch"
       },
       "fieldConfig": {
         "defaults": {
@@ -926,7 +926,7 @@
           "alias": "Read",
           "datasource": {
             "type": "cloudwatch",
-            "uid": "${DS_CLOUDWATCH}"
+            "uid": "cloudwatch"
           },
           "dimensions": {
             "DBInstanceIdentifier": "$instance"
@@ -946,7 +946,7 @@
           "alias": "Write",
           "datasource": {
             "type": "cloudwatch",
-            "uid": "${DS_CLOUDWATCH}"
+            "uid": "cloudwatch"
           },
           "dimensions": {
             "DBInstanceIdentifier": "$instance"
@@ -995,7 +995,7 @@
     {
       "datasource": {
         "type": "cloudwatch",
-        "uid": "${DS_CLOUDWATCH}"
+        "uid": "cloudwatch"
       },
       "fieldConfig": {
         "defaults": {
@@ -1082,7 +1082,7 @@
           "alias": "Available",
           "datasource": {
             "type": "cloudwatch",
-            "uid": "${DS_CLOUDWATCH}"
+            "uid": "cloudwatch"
           },
           "dimensions": {
             "DBInstanceIdentifier": "$instance"
@@ -1105,7 +1105,7 @@
     {
       "datasource": {
         "type": "cloudwatch",
-        "uid": "${DS_CLOUDWATCH}"
+        "uid": "cloudwatch"
       },
       "fieldConfig": {
         "defaults": {
@@ -1192,7 +1192,7 @@
           "alias": "Available",
           "datasource": {
             "type": "cloudwatch",
-            "uid": "${DS_CLOUDWATCH}"
+            "uid": "cloudwatch"
           },
           "dimensions": {
             "DBInstanceIdentifier": "$instance"
@@ -1246,7 +1246,7 @@
       "bars": false,
       "datasource": {
         "type": "cloudwatch",
-        "uid": "${DS_CLOUDWATCH}"
+        "uid": "cloudwatch"
       },
       "editable": true,
       "error": false,
@@ -1288,7 +1288,7 @@
           "alias": "Used",
           "datasource": {
             "type": "cloudwatch",
-            "uid": "${DS_CLOUDWATCH}"
+            "uid": "cloudwatch"
           },
           "dimensions": {
             "DBInstanceIdentifier": "$instance"
@@ -1336,7 +1336,7 @@
       "bars": false,
       "datasource": {
         "type": "cloudwatch",
-        "uid": "${DS_CLOUDWATCH}"
+        "uid": "cloudwatch"
       },
       "editable": true,
       "error": false,
@@ -1377,7 +1377,7 @@
           "alias": "Inbound",
           "datasource": {
             "type": "cloudwatch",
-            "uid": "${DS_CLOUDWATCH}"
+            "uid": "cloudwatch"
           },
           "dimensions": {
             "DBInstanceIdentifier": "$instance"
@@ -1397,7 +1397,7 @@
           "alias": "Outbound",
           "datasource": {
             "type": "cloudwatch",
-            "uid": "${DS_CLOUDWATCH}"
+            "uid": "cloudwatch"
           },
           "dimensions": {
             "DBInstanceIdentifier": "$instance"
@@ -1457,7 +1457,7 @@
           "content": "# Setup\n\nAdd CloudWatch datasource to Grafana with the name `CloudWatch`.\n\nCreate IAM user and attach the managed policy `CloudWatchReadOnlyAccess`. Then put the credentials in the file `~grafana/.aws/credentials`:\n```\n[default]\naws_access_key_id = youraccesskeyid\naws_secret_access_key = yoursecretaccesskey\n```",
           "datasource": {
             "type": "cloudwatch",
-            "uid": "${DS_CLOUDWATCH}"
+            "uid": "cloudwatch"
           },
           "editable": true,
           "error": false,
@@ -1500,7 +1500,7 @@
         },
         "datasource": {
           "type": "cloudwatch",
-          "uid": "${DS_CLOUDWATCH}"
+          "uid": "cloudwatch"
         },
         "definition": "",
         "hide": 0,
@@ -1525,7 +1525,7 @@
         },
         "datasource": {
           "type": "cloudwatch",
-          "uid": "${DS_CLOUDWATCH}"
+          "uid": "cloudwatch"
         },
         "definition": "",
         "hide": 0,
