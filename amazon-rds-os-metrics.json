@@ -1590,7 +1590,7 @@
     ]
   },
   "timezone": "browser",
-  "title": "Amazon RDS OS Metrics Copy",
+  "title": "Amazon RDS OS Metrics",
   "uid": "null",
   "version": 1,
   "weekStart": ""
